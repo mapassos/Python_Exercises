@@ -50,17 +50,11 @@ def explode(cx, cy, r):
     #           2º círculo -> centro (cx - r, cy) e raio r/2
     #           3º círculo -> centro (cx, cy - r) e raio r/2
     #           4º círculo -> centro (cx, cy + r) e raio r/2
-    # ------------------------------
-    # Escreva o código aqui
-    # ------------------------------
     c1x, c1y, c1r = cx + r, cy, r / 2
     c2x, c2y, c2r = cx - r, cy, r / 2
     c3x, c3y, c3r = cx, cy - r, r / 2
     c4x, c4y, c4r = cx, cy + r, r / 2
     return [c1x, c1y, c1r, c2x, c2y, c2r, c3x, c3y, c3r, c4x, c4y, c4r]
-
-
-# DAQUI EM DIANTE NÃO PRECISA ALTERAR NADA
 
 # Quantidade de círculos iniciais
 M = int(input())
