@@ -1,4 +1,4 @@
-# Python_Random_Exs
+# Python_Exs
 
 ---
 <h2>Some exs done with python</h2>
