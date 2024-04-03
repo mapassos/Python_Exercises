@@ -5,9 +5,6 @@ def intersecta(x, y, vx, vy, cx, cy, r):
     #             2) o centro (cx,cy) e o raio r de um círculo.
     # RETORNO: True caso o raio laser intersecte o círculo ou
     #          False caso contrário.
-    # ------------------------------
-    # Escreva o código aqui
-    # ------------------------------
     if r < 0:
         return False
     if vx != 0 and vy != 0:
